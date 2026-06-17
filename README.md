@@ -1,120 +1,57 @@
-# 🎮 Adam Asmaca Oyunu (JavaFX)
+# Adam Asmaca Oyunu (JavaFX)
 
-Bu proje, Nesne Yönelimli Programlama dersi kapsamında Java kullanılarak geliştirilmiş grafiksel bir Adam Asmaca oyunudur.
+Java ve JavaFX kullanılarak geliştirilmiş masaüstü Adam Asmaca oyunudur.
 
-Oyuncu rastgele seçilen kelimeyi harf tahminleri yaparak bulmaya çalışır. Her yanlış tahminde kalan hak azalır ve belirli sayıda hatadan sonra oyun sona erer.
-
----
-
-# 🛠 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 * Java
 * JavaFX
 * Nesne Yönelimli Programlama (OOP)
 
----
-
-# ✨ Özellikler
+## Özellikler
 
 * Grafiksel kullanıcı arayüzü
 * Rastgele kelime seçimi
-* Harf tahmin sistemi
-* Daha önce kullanılan harfleri kontrol etme
-* Kazanma ve kaybetme durumları
-* Adam asmaca görselleri ile oyun takibi
-* Uyarı ve bilgilendirme pencereleri
+* Kategori sistemi
+* Harf tahmin mekanizması
+* Kullanılmış harf kontrolü
+* Süre sistemi
+* Kazanma ve kaybetme ekranları
 
----
+## Proje Dosyaları
 
-# 📁 Proje Yapısı
+* Main.java
+* GameLogic.java
+* GameDialogs.java
+* HangmanPainter.java
+* arkaplan.jpg
 
-```text
-Hangman-Game-Java
-│
-├── src
-│   ├── Main.java
-│   ├── GameLogic.java
-│   ├── GameDialogs.java
-│   └── HangmanPainter.java
-│
-├── images
-│   ├── menu.png
-│   ├── gameplay.png
-│   ├── used-letter.png
-│   └── game-over.png
-│
-├── lib
-│   └── JavaFX kütüphaneleri
-│
-├── arkaplan.jpg
-└── README.md
-```
+## Ekran Görüntüleri
+## Ekran Görüntüleri
 
----
+### Ana Menü
 
-# 🖼 Ekran Görüntüleri
+![Ana Menü](images/main-menu.png)
 
-## Ana Menü
+### Oyun Ekranı
 
-![Ana Menü](images/menu.png)
+![Oyun Ekranı](images/game-screen.png)
 
-Oyunun başlangıç ekranıdır.
+### Kullanılmış Harf Uyarısı
 
----
+![Kullanılmış Harf Uyarısı](images/used-letter.png)
 
-## Oyun Ekranı
-
-![Oyun Ekranı](images/gameplay.png)
-
-Oyuncunun harf tahminleri yaptığı ana oyun ekranıdır.
-
----
-
-## Kullanılmış Harf Uyarısı
-
-![Kullanılmış Harf](images/used-letter.png)
-
-Daha önce girilmiş bir harf tekrar girildiğinde görüntülenen uyarı ekranıdır.
-
----
-
-## Oyun Sonu
+### Oyun Sonu
 
 ![Oyun Sonu](images/game-over.png)
+## Çalıştırma
 
-Oyuncunun tüm haklarını kullanması durumunda görüntülenen ekran.
+1. Java JDK 21 kurulu olmalıdır.
+2. `lib` klasöründeki JavaFX kütüphaneleri projeye eklenmelidir.
+3. `Main.java` çalıştırılarak oyun başlatılır.
 
----
+## Not
 
-# 🚀 Projeyi Çalıştırma
+Bu proje JavaFX kullanmaktadır. Çalıştırabilmek için JavaFX kütüphanelerinin IDE içerisinde tanımlı olması gerekmektedir.
 
-1. Projeyi bilgisayarınıza indirin.
-2. Java JDK 21 veya üzeri bir sürümün kurulu olduğundan emin olun.
-3. Projeyi IntelliJ IDEA, Eclipse, NetBeans veya VS Code ile açın.
-4. `lib` klasörü içerisindeki JavaFX kütüphanelerini projeye ekleyin.
-5. `Main.java` dosyasını çalıştırın.
-
----
-
-# ⚠️ Önemli Notlar
-
-Bu proje JavaFX kullanılarak geliştirilmiştir.
-
-Projeyi çalıştırabilmek için JavaFX kütüphanelerinin IDE içerisinde doğru şekilde tanımlanmış olması gerekmektedir.
-
-Görsellerin düzgün görüntülenebilmesi için:
-
-* `images` klasörü
-* `arkaplan.jpg` dosyası
-
-proje dizini içerisinde bulunmalıdır.
-
----
-
-# 👩‍💻 Geliştiriciler
-
-* Şerife Melis Köse
-* Şükriye Odabaşı
-* Nilüfer Teke
-
-Üniversite dönem projesi olarak geliştirilmiştir.
+Gerekli JavaFX dosyaları `lib` klasöründe bulunmaktadır.
