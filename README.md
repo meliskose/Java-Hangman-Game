@@ -1,14 +1,14 @@
-# 🎮 Adam Asmaca Oyunu (JavaFX)
+#  Adam Asmaca Oyunu (JavaFX)
 
 Java ve JavaFX kullanılarak geliştirilmiş masaüstü Adam Asmaca oyunudur.
 
-## 🛠 Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 * Java
 * JavaFX
 * Nesne Yönelimli Programlama (OOP)
 
-## ✨ Özellikler
+## Özellikler
 
 * Grafiksel kullanıcı arayüzü
 * Rastgele kelime seçimi
@@ -19,7 +19,7 @@ Java ve JavaFX kullanılarak geliştirilmiş masaüstü Adam Asmaca oyunudur.
 * Çöp adam çizimi
 * Yardım ekranı
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```text
 Hangman-Game-Java
@@ -49,32 +49,32 @@ Hangman-Game-Java
 └── README.md
 ```
 
-## 🖼 Ekran Görüntüleri
+## Ekran Görüntüleri
 
 ### Ana Menü
 
-![Ana Menü](images/main-menu.png)
+![Ana Menü](images/main-menu.jpg)
 
 ### Oyun Ekranı
 
-![Oyun Ekranı](images/game-screen.png)
+![Oyun Ekranı](images/game-screen.jpg)
 
 ### Kullanılmış Harf Uyarısı
 
-![Kullanılmış Harf Uyarısı](images/used-letter.png)
+![Kullanılmış Harf Uyarısı](images/used-letter.jpg)
 
 ### Oyun Sonu
 
-![Oyun Sonu](images/game-over.png)
+![Oyun Sonu](images/game-over.jpg)
 
-## 🚀 Çalıştırma
+## Çalıştırma
 
 1. Java JDK 21 veya üzeri bir sürüm kurulu olmalıdır.
 2. Proje bir Java IDE'si (VS Code, Eclipse, IntelliJ IDEA vb.) ile açılmalıdır.
 3. `lib` klasöründeki JavaFX kütüphaneleri projeye eklenmelidir.
 4. `Main.java` dosyası çalıştırılarak oyun başlatılabilir.
 
-## ⚠️ Not
+## Not
 
 Bu proje JavaFX kullanılarak geliştirilmiştir.
 
