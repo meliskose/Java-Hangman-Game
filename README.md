@@ -1,33 +1,55 @@
-# Adam Asmaca Oyunu (JavaFX)
+# 🎮 Adam Asmaca Oyunu (JavaFX)
 
 Java ve JavaFX kullanılarak geliştirilmiş masaüstü Adam Asmaca oyunudur.
 
-## Kullanılan Teknolojiler
+## 🛠 Kullanılan Teknolojiler
 
 * Java
 * JavaFX
 * Nesne Yönelimli Programlama (OOP)
 
-## Özellikler
+## ✨ Özellikler
 
 * Grafiksel kullanıcı arayüzü
 * Rastgele kelime seçimi
-* Kategori sistemi
-* Harf tahmin mekanizması
+* Harf tahmin sistemi
 * Kullanılmış harf kontrolü
 * Süre sistemi
 * Kazanma ve kaybetme ekranları
+* Çöp adam çizimi
+* Yardım ekranı
 
-## Proje Dosyaları
+## 📁 Proje Yapısı
 
-* Main.java
-* GameLogic.java
-* GameDialogs.java
-* HangmanPainter.java
-* arkaplan.jpg
+```text
+Hangman-Game-Java
+│
+├── images
+│   ├── game-over.png
+│   ├── game-screen.png
+│   ├── main-menu.png
+│   └── used-letter.png
+│
+├── lib
+│   ├── javafx.base.jar
+│   ├── javafx.controls.jar
+│   ├── javafx.fxml.jar
+│   ├── javafx.graphics.jar
+│   ├── javafx.media.jar
+│   ├── javafx.swing.jar
+│   ├── javafx.web.jar
+│   └── javafx-swt.jar
+│
+├── arkaplan.jpg
+├── Main.java
+├── GameLogic.java
+├── GameDialogs.java
+├── HangmanPainter.java
+│
+└── README.md
+```
 
-## Ekran Görüntüleri
-## Ekran Görüntüleri
+## 🖼 Ekran Görüntüleri
 
 ### Ana Menü
 
@@ -44,14 +66,22 @@ Java ve JavaFX kullanılarak geliştirilmiş masaüstü Adam Asmaca oyunudur.
 ### Oyun Sonu
 
 ![Oyun Sonu](images/game-over.png)
-## Çalıştırma
 
-1. Java JDK 21 kurulu olmalıdır.
-2. `lib` klasöründeki JavaFX kütüphaneleri projeye eklenmelidir.
-3. `Main.java` çalıştırılarak oyun başlatılır.
+## 🚀 Çalıştırma
 
-## Not
+1. Java JDK 21 veya üzeri bir sürüm kurulu olmalıdır.
+2. Proje bir Java IDE'si (VS Code, Eclipse, IntelliJ IDEA vb.) ile açılmalıdır.
+3. `lib` klasöründeki JavaFX kütüphaneleri projeye eklenmelidir.
+4. `Main.java` dosyası çalıştırılarak oyun başlatılabilir.
 
-Bu proje JavaFX kullanmaktadır. Çalıştırabilmek için JavaFX kütüphanelerinin IDE içerisinde tanımlı olması gerekmektedir.
+## ⚠️ Not
 
-Gerekli JavaFX dosyaları `lib` klasöründe bulunmaktadır.
+Bu proje JavaFX kullanılarak geliştirilmiştir.
+
+Projeyi çalıştırabilmek için JavaFX kütüphanelerinin IDE içerisinde doğru şekilde tanımlanmış olması gerekmektedir.
+
+Gerekli JavaFX dosyaları `lib` klasörü içerisinde bulunmaktadır.
+
+Arka plan görselinin görüntülenebilmesi için `arkaplan.jpg` dosyasının proje dizininde bulunması gerekmektedir.
+
+
